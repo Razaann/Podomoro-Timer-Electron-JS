@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Podomoro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+</head>
+<body>
+    <div class="div-Container">
+        <h1 class="dynaPuff-Title">Podomoro Timer</h1>
+            <div id="timer" class="dynaPuff-Timer">25:00</div>
+                <div class="div-Button">
+                    <button id="start" class="Button dynaPuff-Button">Start</button>
+                    <button id="pause" class="Button dynaPuff-Button">Pause</button>
+                    <button id="reset" class="Button dynaPuff-Button">Reset</button>
+                </div>
+            <audio id="alarm" src="alert.mp3"></audio> <!-- Place a sound file in your project -->
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>

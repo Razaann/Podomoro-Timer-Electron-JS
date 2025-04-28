@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.Razaann.firstelectronproject
+productName: Podomoro Timer
+win:
+  icon: build/icon.ico
+  target:
+    - portable
+files: []
+electronVersion: 35.2.1

@@ -1,0 +1,85 @@
+    /* Reset default margins and paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body styling */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 75px;
+        background-color: #fffaf0; /* Soft background to complement #fd8888 */
+    }
+    
+    /* Container styling */
+    .div-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        width: 100%;
+        max-width: 650px;
+    }
+    
+    /* Button container styling */
+    .div-Button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+    }
+    
+    /* Button styling */
+    .Button {
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        border-radius: 999px;
+        background-color: #fd8888;
+        color: #fffff0;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 24px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .Button:hover {
+        background-color: #ff6f6f; /* Slightly darker shade on hover */
+        transform: scale(1.05); /* Slight scale effect on hover */
+    }
+    
+    /* Timer text styling */
+    .dynaPuff-Timer {
+        color: #fd8888;
+        text-align: center;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 128px;
+        font-weight: 600;
+    }
+    
+    /* Title text styling */
+    .dynaPuff-Title {
+        color: #fd8888;
+        text-align: center;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 64px;
+        font-weight: 400;
+    }
+    
+    /* Button text styling */
+    .dynaPuff-Button {
+        color: #fffff0;
+        text-align: center;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+    }
+    
